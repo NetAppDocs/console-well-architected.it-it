@@ -1,14 +1,8 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
-summary: Scopri le novità della dashboard ben progettata in NetApp Console. 
----
-= Novità relative alla dashboard Well-Architected in NetApp Console
+= 20 luglio 2026
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
+
+permalink: whats-new.html parole chiave: novità, funzionalità, nuovo, note di rilascio, miglioramenti, correzioni, nuove funzionalità, well-architected, dashboard well-architected, amazon fsx per netapp ontap, fsx per ontap, cloud volumes ontap riepilogo: "Scopri le novità della dashboard well-architected in NetApp Console." --- = Novità della dashboard Well-Architected in NetApp Console :icons: font :imagesdir: ./media/
 
 [role="lead"]
 Scopri le novità del componente Well-architected di Workload Factory.
@@ -25,14 +19,14 @@ Scopri le novità della dashboard Well-Architected in NetApp Console.
 [[introducing-the-well-architected-dashboard-in-netapp-console]]
 === Presentazione della dashboard ben progettata in NetApp Console
 
-La dashboard ben strutturata di NetApp Console offre una visione unificata dei tuoi sistemi storage e delle configurazioni su tutti gli account e le regioni. La dashboard fornisce informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa. Puoi visualizzare lo stato ben strutturato delle tue configurazioni, i problemi di configurazione organizzati in base ai pilastri del framework ben strutturato per il tipo di storage che usi e un elenco di problemi di configurazione e raccomandazioni.
+La dashboard ben strutturata di NetApp Console offre una visione unificata dei tuoi sistemi storage e delle configurazioni su tutti gli account e le regioni. La dashboard fornisce informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa. Puoi visualizzare lo stato ben strutturato delle tue configurazioni, i problemi di configurazione organizzati in base ai pilastri del framework ben strutturato per il tipo di storage che utilizzi e un elenco di problemi di configurazione e raccomandazioni.
 
 Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard ben progettata"].
 
 La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
 
 
 

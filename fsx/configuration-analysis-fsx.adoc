@@ -11,7 +11,7 @@ summary: NetApp Console analizza regolarmente le configurazioni del sistema stor
 
 
 [role="lead"]
-NetApp Console analizza regolarmente le configurazioni dei sistemi storage per determinare se ci sono problemi di configurazione. Quando vengono rilevati problemi, NetApp Console ti mostra quali sono i problemi e spiega cosa deve essere cambiato per assicurare che i tuoi sistemi storage raggiungano prestazioni ottimali, efficienza dei costi e conformità alle best practice.
+NetApp Console analizza regolarmente le configurazioni dei sistemi di storage per determinare se ci sono problemi di configurazione. Quando vengono rilevati problemi, NetApp Console ti mostra quali sono i problemi e spiega cosa deve essere cambiato per assicurarti che i tuoi sistemi di storage raggiungano prestazioni ottimali, efficienza dei costi e conformità alle best practice.
 
 Le principali funzionalità includono:
 
@@ -20,24 +20,6 @@ Le principali funzionalità includono:
 * Osservabilità proattiva
 * Dagli insight all'azione
 
-
-
-
-[[how-it-works]]
-== Come funziona
-
-Workload Factory analizza quotidianamente i carichi di lavoro in esecuzione sulle implementazioni dei file system Amazon FSx for NetApp ONTAP. L'analisi fornisce stato ben architettato, approfondimenti e raccomandazioni.
-
-Al termine dell'analisi giornaliera, le configurazioni vengono visualizzate come "ottimizzate" o "non ottimizzate" nella dashboard Well-architected per la distribuzione. Troverai il punteggio di ottimizzazione totale, i problemi di configurazione per categoria e un elenco di problemi di configurazione e raccomandazioni. Puoi esaminare le raccomandazioni relative ai problemi di configurazione. Alcuni problemi possono essere risolti automaticamente da Workload Factory, mentre altri richiedono un intervento manuale. In questo caso, Workload Factory fornisce istruzioni dettagliate per aiutarti a implementare le modifiche consigliate.
-
-È possibile ignorare l'analisi delle configurazioni che non si applicano ai propri ambienti. In questo modo si evitano avvisi non necessari e risultati di ottimizzazione imprecisi. Quando si ignora un'analisi di configurazione specifica, Workload Factory non include la configurazione nel punteggio di ottimizzazione totale.
-
-
-
-[[why-it-matters]]
-== Perché è importante
-
-Workload Factory applica le best practice ad ambienti di storage, database e VMware di grandi dimensioni, combinando valutazioni continue con suggerimenti e interventi correttivi. Le correzioni automatiche applicate nella console di Workload Factory riducono gli errori umani, garantiscono una gestione uniforme e preservano prestazioni e affidabilità nelle infrastrutture di workload.
 
 
 
@@ -58,7 +40,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Sc
 [[best-practices-and-recommendations-for-storage-workloads]]
 == Best practice e raccomandazioni per i carichi di lavoro di storage
 
-Workload Factory valuta le configurazioni di storage in base alle best practice di ONTAP e all'AWS Well-Architected Framework. La valutazione consiglia anche miglioramenti e correzioni.
+Workload Factory valuta le configurazioni di storage in base alle best practice di ONTAP e all'AWS Well-Architected Framework. La valutazione fornisce inoltre suggerimenti per miglioramenti e correzioni.
 
 L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del framework: , , ,  ed .
 
@@ -87,7 +69,7 @@ Per estendere l'affidabilità dei dati, è possibile replicarli su un file syste
 
 * *Aumenta la soglia di capacità SSD*
 +
-La capacità del tier di storage SSD non dovrebbe superare l'80% di utilizzo. Questo potrebbe influire sulle letture e scritture dei dati sul tuo tier di storage della capacity pool e influire sulla throughput del tuo file system. Se esaurisci la capacità, i volumi di dati diventano di sola lettura. Anche i servizi che cercano di scrivere nuovi dati non riescono.
+La capacità del tier di storage SSD non dovrebbe superare l'80% di utilizzo. Questo potrebbe influire sulle letture e scritture dei dati sul tuo tier di storage della capacity pool e influire sulla capacità di throughput del tuo file system. Se esaurisci la capacità, i volumi di dati diventano di sola lettura. Anche i servizi che cercano di scrivere nuovi dati non riescono.
 
 * *Associa le etichette per garantire l'affidabilità dei dati*
 +
@@ -95,7 +77,7 @@ Le etichette dei criteri di snapshot del volume di origine e le etichette dei cr
 
 * *Aumenta la soglia di capacità del file*
 +
-La soglia di capacità dei file dovrebbe essere aumentata per evitare di raggiungere il limite di capacità del volume. Una capacità dei file (inodes) insufficiente impedisce di scrivere dati aggiuntivi nel volume. Workload Factory consiglia di mantenere l'utilizzo della capacità dei file al di sotto dell'80%. Per creare nuovi file nel volume è necessaria una capacità dei file disponibile.
+La soglia di capacità dei file dovrebbe essere aumentata per evitare di raggiungere il limite di capacità del volume. Una bassa capacità dei file (inodes) impedisce di scrivere dati aggiuntivi nel volume. Workload Factory consiglia di mantenere l'utilizzo della capacità dei file al di sotto dell'80%. È necessaria capacità dei file disponibile per creare nuovi file nel volume.
 
 
 
@@ -183,4 +165,4 @@ L'analisi della configurazione identifica i volumi NAS non utilizzati attivament
 
 
 .Cosa c'è dopo
-link:improve-configurations-fsx.html["Implementa configurazioni di file system FSx for ONTAP ben architettate"]
+link:fsx/improve-configurations-fsx.html["Implementa configurazioni ben architettate del file system FSx for ONTAP"]
