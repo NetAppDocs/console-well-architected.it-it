@@ -183,4 +183,4 @@ L'analisi della configurazione identifica i volumi NAS non utilizzati attivament
 
 
 .Cosa c'è dopo
-link:fsx/improve-configurations-fsx.html["Implementa configurazioni di file system FSx for ONTAP ben architettate"]
+link:improve-configurations-fsx.html["Implementa configurazioni di file system FSx for ONTAP ben architettate"]

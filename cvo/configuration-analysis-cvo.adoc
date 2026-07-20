@@ -110,4 +110,4 @@ Abilita il tiering dei dati cold per spostare i dati cold dal tier di storage SS
 
 
 .Cosa c'è dopo
-link:cvo/improve-configurations-cvo.html["Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate"]
+link:improve-configurations-cvo.html["Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate"]

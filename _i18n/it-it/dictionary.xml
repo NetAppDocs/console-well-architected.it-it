@@ -127,7 +127,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">Abilita il tiering dei dati cold per spostare i dati cold dal tier di storage SSD a uno storage a costo inferiore. Azure Blob Storage funge da tier di capacità per i dati inattivi.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Cosa c'è dopo</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload factory analizza le configurazioni di Cloud Volumes ONTAP fornendo informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa.</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">Grazie alle analisi di configurazione e ai suggerimenti, sfrutta NetApp per implementare le best practice per i tuoi sistemi Cloud Volumes ONTAP in esecuzione su storage Microsoft Azure. Puoi facilmente verificare lo stato dell'architettura, scoprire eventuali problemi nelle tue configurazioni e ricevere consigli per migliorare l'architettura di qualsiasi sistema che non è ottimizzato per affidabilità, sicurezza, efficienza, prestazioni e costi.</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">Scopri l'analisi della configurazione e lo stato ben architettato.</block>
@@ -207,7 +206,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*Volumi NAS inattivi*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">L'analisi della configurazione identifica i volumi NAS non utilizzati attivamente e raccomanda di eliminarli o archiviarli per ridurre i costi.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">Implementa configurazioni di file system FSx for ONTAP ben architettate</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="e3a12eeb93ddbad9936f64a12bb2990b" category="summary">Workload Factory analizza le configurazioni di Amazon FSx for NetApp ONTAP, fornendo informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa.</block>
   <block id="55f2831e5ee9e4f5e3415852d7e413ac" category="paragraph">Sfruttando le analisi di configurazione e i suggerimenti forniti, usa Workload Factory per implementare le best practice per i tuoi file system Amazon FSx for NetApp ONTAP. Puoi facilmente verificare lo stato well-architected, scoprire eventuali problemi nelle tue configurazioni e intervenire per migliorare l'architettura di qualsiasi sistema che non sia ottimizzato per affidabilità, sicurezza, efficienza, prestazioni e costi.</block>
   <block id="b2a386f5924b478e19e471dfee7196f1" category="paragraph">Puoi anche ignorare l'analisi di specifiche configurazioni di storage che non si applicano al tuo ambiente di storage, per evitare avvisi inutili e risultati di ottimizzazione imprecisi.</block>
@@ -573,4 +571,6 @@
   <block id="b19bb0439c5d62764cdbd2b118e3f054" category="sidebar">Analisi della configurazione</block>
   <block id="9123b467a31fc6f9863d4a33d8a6badc" category="sidebar">Migliora le configurazioni del file system</block>
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">Migliora le configurazioni di sistema</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>
