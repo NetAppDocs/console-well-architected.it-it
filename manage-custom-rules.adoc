@@ -1,0 +1,122 @@
+---
+sidebar: sidebar 
+permalink: manage-custom-rules.html 
+keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
+summary: Visualizza, abilita, disabilita ed elimina le regole architetturali personalizzate dal catalogo delle regole. 
+---
+= Gestisci le regole personalizzate
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Il catalogo delle regole è il luogo ideale per gestire tutte le tue regole personalizzate. Puoi vedere i dettagli di ogni regola, controllarne i risultati e attivarla o disattivarla.
+
+
+
+[[view-the-rules-catalog]]
+== Visualizza il catalogo delle regole
+
+Il catalogo delle regole mostra tutte le regole che hai creato, il loro stato, la pianificazione e i risultati più recenti.
+
+.Passaggi
+. Accedi utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze della console"^].
+. Seleziona il menu image:workloads-menu-icon.png["L'icona del menu hamburger"] e poi seleziona *costruttore di regole*.
+. Fai clic su *Visualizza le tue regole* per aprire il catalogo delle regole.
+
+
+
+
+[[view-rule-results]]
+== Visualizza i risultati della regola
+
+I risultati mostrano quali risorse seguono la tua regola e quali no.
+
+.Passaggi
+. Nel catalogo delle regole, fai clic sulla regola che desideri esaminare.
+. Seleziona la scheda *All runs results*.
+. Seleziona **Visualizza dettagli** per vedere i risultati di ogni esecuzione.
+
+
+Se il controllo non è andato a buon fine per alcuni elementi, leggi il messaggio di errore per scoprirne il motivo. Le cause più comuni sono problemi di connessione, autorizzazioni mancanti o un Link/Connector non configurato.
+
+
+
+[[pause-a-rule]]
+== Metti in pausa una regola
+
+Metti in pausa una regola per interrompere le valutazioni senza eliminarla. Le regole in pausa rimangono nel catalogo e possono essere riavviate in qualsiasi momento.
+
+.Passaggi
+. Nel catalogo delle regole, fai clic sulla regola che vuoi mettere in pausa.
+. Esegui una delle seguenti operazioni:
++
+** Per sospendere una regola pianificata, fai clic su *Sospendi*, quindi conferma. La regola smette di essere eseguita secondo la pianificazione.
+** Per riprendere una regola sospesa, fai clic su *Riprendi*, quindi conferma. La regola riprende le valutazioni regolari.
+
+
+
+
+
+
+[[delete-a-custom-rule]]
+== Elimina una regola personalizzata
+
+Elimina una regola in modo permanente quando non ti serve più. Questa azione non può essere annullata.
+
+.Passaggi
+. Nel catalogo delle regole, fai clic sulla regola che desideri eliminare.
+. Fai clic su *Delete*.
+. Conferma che vuoi eliminare definitivamente la regola.
+
+
+.Risultato
+La regola viene rimossa dal catalogo. Tutta la cronologia delle valutazioni viene eliminata.
+
+
+
+[[run-a-quick-test]]
+== Esegui un test rapido
+
+Esegui un test rapido in qualsiasi momento per verificare la conformità corrente senza attendere la prossima esecuzione programmata.
+
+.Passaggi
+. Nel catalogo delle regole, fai clic sulla regola che desideri valutare.
+. Fai clic su *Validate*.
++
+Il sistema valuta tutte le risorse nell'ambito rispetto alla logica della regola.
+
+. Esamina i risultati per vedere lo stato di conformità attuale.
+
+
+I test vengono verificati e compaiono nella cronologia di valutazione della regola.
+
+
+
+[[understand-execution-status]]
+== Comprendi lo stato di esecuzione
+
+Lo stato di esecuzione mostra se una regola è stata eseguita correttamente.
+
+Riuscito:: Tutte le risorse pertinenti sono state controllate e non sono stati trovati errori.
+Parzialmente riuscito:: Alcune risorse sono state verificate con successo, ma altre no. Controlla i dettagli dell'errore per quelle che non è stato possibile verificare.
+Fallito:: La valutazione non è stata completata. Le cause più comuni includono errori nelle credenziali AWS, problemi di connessione di rete o problemi di autorizzazione ONTAP.
+
+
+Se una regola continua a fallire o riesce solo in parte, controlla che:
+
+* Le credenziali AWS hanno accesso in sola lettura a tutte le risorse.
+* Il collegamento e il connettore sono configurati per tutti i file system in scope.
+* L'utente visualizzatore FSx for ONTAP ha le autorizzazioni appropriate.
+
+
+
+
+[[what-to-do-next]]
+== Cosa fare dopo
+
+link:learn-custom-rules.html["Scopri di più sulle regole personalizzate"]

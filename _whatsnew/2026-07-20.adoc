@@ -1,0 +1,27 @@
+= Presentazione della dashboard ben progettata in NetApp Console
+:allow-uri-read: 
+
+
+
+
+[[introducing-the-well-architected-dashboard-in-netapp-console]]
+=== Presentazione della dashboard ben progettata in NetApp Console
+
+La dashboard ben strutturata di NetApp Console offre una visione unificata dei tuoi sistemi storage e delle configurazioni su tutti gli account e le regioni. La dashboard fornisce informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa. Puoi visualizzare lo stato ben strutturato delle tue configurazioni, i problemi di configurazione organizzati in base ai pilastri del framework ben strutturato per il tipo di storage che usi e un elenco di problemi di configurazione e raccomandazioni.
+
+Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard ben progettata"].
+
+La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
+
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
+
+
+
+
+[[build-your-own-custom-rules]]
+=== Crea le tue regole personalizzate
+
+Scrivi regole personalizzate in linguaggio semplice per assicurarti che i tuoi sistemi rispettino gli standard della tua organizzazione e le best practice di NetApp. Testa le regole con una simulazione, poi pianifica che vengano eseguite su tutti i tuoi ambienti.
+
+https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Scopri di più sulle regole personalizzate"^]

@@ -1,0 +1,48 @@
+---
+indexpage:
+  title: Dashboard ben progettata in NetApp Console
+  summary: NetApp Console ti aiuta a mantenere e gestire configurazioni affidabili,
+    sicure, efficienti e convenienti che sono in linea con i framework ben architettati
+    per il tipo di storage che utilizzi.
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console ti aiuta a mantenere configurazioni di storage affidabili,
+    sicure, efficienti e convenienti, in linea con il framework ben architettato del
+    tuo tipo di storage. La dashboard ben architettata offre una visione unificata
+    tra account e regioni, aiuta i team a identificare e dare priorità ai rischi e
+    supporta regole personalizzate per requisiti specifici.
+  tiles:
+  - title: Inizia
+    links:
+    - title: Note di rilascio
+      url: "/whats-new.html"
+    - title: Scopri la dashboard ben progettata
+      url: "/learn-well-architected-dashboard.html"
+  - title: Prodotti supportati
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: Crea le tue regole
+    links:
+    - title: Scopri le regole personalizzate
+      url: "/learn-custom-rules.html"
+    - title: Crea una regola personalizzata
+      url: "/create-custom-rule.html"
+    - title: Gestisci le regole personalizzate
+      url: "/manage-custom-rules.html"
+  - title: Conoscenza e supporto
+    links:
+    - title: Registrati per ricevere supporto
+      url: "/register-support.html"
+    - title: Ottieni aiuto
+      url: "/get-help.html"
+  - title: Blog e community
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: Community NetApp
+      url: https://community.netapp.com/

@@ -1,0 +1,146 @@
+---
+sidebar: sidebar 
+permalink: create-custom-rule.html 
+keywords: create custom rule, byor, custom rules, fsx, ontap, well architected, rule builder 
+summary: Crea una regola architetturale personalizzata usando il linguaggio naturale per applicare gli standard della tua organizzazione per FSx per ONTAP. 
+---
+= Crea una regola personalizzata
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Crea regole personalizzate descrivendole in linguaggio naturale. Il costruttore di regole AI trasforma la tua richiesta in una regola validata che verifica le risorse FSx for ONTAP.
+
+.Prima di iniziare
+* Hai configurato le credenziali AWS con accesso di sola lettura.
+* Hai le credenziali ONTAP con permessi di visualizzazione.
+* Hai un collegamento o un agente configurato per la connettività FSx for ONTAP.
+* Comprendi che la creazione di regole personalizzate utilizza il servizio Bedrock AI di NetApp.
+
+
+.Informazioni su questa attività
+Il processo di creazione delle regole ti guida attraverso i vari passaggi: definizione della regola, revisione di come l'IA l'ha interpretata e verifica dei risultati prima di programmare le valutazioni periodiche. Hai il controllo a ogni passaggio. Il sistema suggerisce una regola in base al tuo prompt, ma nulla va avanti finché non la confermi.
+
+
+
+[[create-a-rule]]
+== Crea una regola
+
+.Passaggi
+. Accedi utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze della console"^].
+. Seleziona il menu image:workloads-menu-icon.png["L'icona del menu hamburger"] e poi seleziona *Well-architected*.
+. Dal menu Well-architected, seleziona *costruttore di regole*.
++
+Quando apri il rule builder, vengono visualizzati dei prompt di esempio per aiutarti a scrivere la tua regola personalizzata. Puoi selezionare *Copia prompt* per copiare un prompt di esempio nella casella di testo della finestra di dialogo AI.
+
+. Nel campo *Crea una regola*, inserisci la descrizione della regola in linguaggio naturale. Sii il più preciso possibile riguardo a:
++
+** Quale tipo di risorsa stai controllando (file system, volume o cache).
+** Quale condizione stai convalidando.
+** Quale soglia definisce la conformità.
+** Perché questa regola è importante (facoltativo ma consigliato).
+
+
+. Seleziona image:arrow.png["L'icona del menu viene utilizzata per iniziare a generare le regole., width=18"].
++
+L'IA analizza il tuo prompt e genera una definizione di regola.
+
+
+
+
+
+[[review-the-ai-interpretation]]
+== Rivedi l'interpretazione dell'IA
+
+Il costruttore di regole visualizza:
+
+* *Interpretazione sintattica*: Come l'AI ha compreso il tuo prompt in linguaggio semplice.
+* *Definizione della regola*: La regola strutturata che include il tipo di risorsa, la logica delle condizioni e i criteri di valutazione.
+* *Motivazione*: Perché l'IA ha interpretato il tuo prompt in questo modo.
+* *Indicatore di affidabilità*: quanto il sistema è sicuro dell'interpretazione.
+
+
+.Passaggi
+. Rivedi l'interpretazione per assicurarti che corrisponda a ciò che intendevi.
++
+Verifica che la definizione della regola sia corretta. Se l'interpretazione non è chiara o è errata, il sistema potrebbe fare domande come: * Quale risorsa deve essere controllata? * Quale valore o limite definisce la conformità? * Ogni quanto deve essere eseguita la regola?
+
+. Rispondi alle domande di chiarimento dell'IA.
++
+L'IA potrebbe chiederti di scegliere tra diverse opzioni per comprendere meglio le tue esigenze. Rispondi a ogni domanda e seleziona *Continua* oppure seleziona *Salta* per passare oltre le domande facoltative.
+
+. Dopo aver risposto a tutte le domande, seleziona *Continua* per creare la tua regola.
+
+
+
+
+[[test-the-rule]]
+== Metti alla prova la regola
+
+Prima di programmare la regola, esegui un test una tantum per vedere quali risorse verranno interessate.
+
+.Passaggi
+. Seleziona *Validate rule*.
++
+Il sistema valuta tutte le risorse nell'ambito rispetto alla tua logica delle regole.
+
+. Esamina i risultati della convalida:
++
+** *Risorse valutate*: Numero totale di risorse controllate
+** *Conforme*: Risorse che soddisfano i criteri della regola
+** *Non conforme*: Risorse che non soddisfano i criteri
+** *Valutazioni fallite*: Risorse che non è stato possibile valutare (con dettagli sull'errore)
+
+
+. Se alcune risorse non hanno superato la valutazione, controlla i motivi dell'errore:
++
+** *Errori nelle credenziali AWS*: le autorizzazioni di sola lettura potrebbero non essere sufficienti per determinate risorse
+** *Errori di connettività*: il collegamento o l'agente potrebbero non essere configurati per specifici file system
+** *Errori di autorizzazione ONTAP*: l'utente visualizzatore potrebbe non avere accesso a determinate risorse
+
+
+
+
+
+
+[[save-or-schedule-the-rule]]
+== Salva o pianifica la regola
+
+Dopo aver testato la tua regola, puoi salvarla come bozza o impostarla per l'esecuzione regolare.
+
+.Passaggi
+. Esegui una delle seguenti operazioni:
++
+** Per programmare una valutazione periodica, imposta la frequenza di valutazione (minimo 1 ora, predefinita 24 ore) e seleziona *Pianifica*. La regola è abilitata e viene eseguita secondo la pianificazione definita.
+** Per salvare senza pianificare, seleziona *Salva come bozza*. La regola viene salvata ma non valutata finché non la pianifichi.
+** Per eliminare la regola, seleziona *Elimina* per annullare la creazione della regola e ricominciare da capo.
+
+
+
+
+.Risultato
+La tua regola personalizzata è stata creata ed è presente nel catalogo delle regole. Se imposti una pianificazione, controllerà le risorse FSx for ONTAP alla frequenza specificata.
+
+
+
+[[troubleshooting]]
+== Risoluzione dei problemi
+
+Nessun file system disponibile:: Configura le tue credenziali AWS e assicurati che il tuo ambiente disponga di almeno un file system FSx for ONTAP. Il costruttore di regole necessita di un file system per applicare le regole.
+Interpretazione a bassa affidabilità:: Sono necessarie ulteriori informazioni. Rispondi alle domande o riscrivi la tua richiesta fornendo dettagli chiari sul tipo di risorsa, i limiti e le condizioni.
+Errori di convalida parziali:: Verifica quali risorse hanno generato errori e perché. Le cause più comuni sono la mancanza di collegamenti o impostazioni dell'agente, oppure autorizzazioni insufficienti. Risolvi il problema, poi verifica di nuovo.
+Richiesta ambigua:: Specifica meglio cosa desideri verificare. Includi il tipo di risorsa, la condizione e la soglia. Consulta gli esempi di prompt per assistenza.
+La regola si applica a più tipi di risorse:: Crea una regola separata per ogni tipo di risorsa. È supportato un solo tipo di risorsa per regola.
+
+
+
+
+[[what-to-do-next]]
+== Cosa fare dopo
+
+link:manage-custom-rules.html["Gestisci le regole personalizzate"]
