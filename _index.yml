@@ -1,16 +1,16 @@
 ---
 indexpage:
   title: Dashboard ben progettata in NetApp Console
-  summary: NetApp Console ti aiuta a mantenere e gestire configurazioni affidabili,
-    sicure, efficienti e convenienti che sono in linea con i framework ben strutturati
-    per il tipo di storage che utilizzi.
+  summary: La dashboard ben progettata di NetApp Console ti aiuta a mantenere e gestire
+    configurazioni affidabili, sicure, efficienti e convenienti, in linea con i framework
+    ben progettati per il tipo di storage che utilizzi.
   keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
     framework, NetApp Console
-  lead: NetApp Console ti aiuta a mantenere configurazioni di storage affidabili,
-    sicure, efficienti e convenienti, in linea con il framework ben architettato del
-    tuo tipo di storage. La dashboard ben architettata offre una visione unificata
-    tra account e regioni, aiuta i team a identificare e dare priorità ai rischi e
-    supporta regole personalizzate per requisiti specifici.
+  lead: La dashboard ben strutturata in NetApp Console ti aiuta a mantenere configurazioni
+    di storage affidabili, sicure, efficienti e convenienti, in linea con il framework
+    ben strutturato del tuo tipo di storage. La dashboard ben strutturata offre una
+    visione unificata tra account e regioni, aiuta i team a identificare e dare priorità
+    ai rischi e supporta regole personalizzate per requisiti specifici.
   tiles:
   - title: Inizia
     links:

@@ -1,13 +1,17 @@
-= 20 luglio 2026
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
+summary: Scopri le novità della dashboard ben progettata in NetApp Console. 
+---
+= Cosa c'è di nuovo nella dashboard ben progettata in NetApp Console
 :allow-uri-read: 
+:icons: font
+:imagesdir: ./media/
 
-
-permalink: whats-new.html parole chiave: novità, funzionalità, nuovo, note di rilascio, miglioramenti, correzioni, nuove funzionalità, well-architected, dashboard well-architected, amazon fsx per netapp ontap, fsx per ontap, cloud volumes ontap riepilogo: "Scopri le novità della dashboard well-architected in NetApp Console." --- = Novità della dashboard Well-Architected in NetApp Console :icons: font :imagesdir: ./media/
 
 [role="lead"]
-Scopri le novità del componente Well-architected di Workload Factory.
-
-Scopri le novità della dashboard Well-Architected in NetApp Console.
+Scopri le novità della dashboard ben progettata in NetApp Console.
 
 
 
@@ -25,8 +29,8 @@ Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/le
 
 La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
 
 
 
@@ -36,4 +40,4 @@ La dashboard ben progettata nella Console è disponibile per i seguenti sistemi 
 
 Scrivi regole personalizzate in linguaggio semplice per assicurarti che i tuoi sistemi rispettino gli standard della tua organizzazione e le best practice di NetApp. Testa le regole con una simulazione, poi pianifica che vengano eseguite su tutti i tuoi ambienti.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Scopri di più sulle regole personalizzate"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Scopri di più sulle regole personalizzate"]

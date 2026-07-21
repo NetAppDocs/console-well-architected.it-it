@@ -13,8 +13,8 @@ Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/le
 
 La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
 
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
+* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
+* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
 
 
 
@@ -24,4 +24,4 @@ La dashboard ben progettata nella Console è disponibile per i seguenti sistemi 
 
 Scrivi regole personalizzate in linguaggio semplice per assicurarti che i tuoi sistemi rispettino gli standard della tua organizzazione e le best practice di NetApp. Testa le regole con una simulazione, poi pianifica che vengano eseguite su tutti i tuoi ambienti.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Scopri di più sulle regole personalizzate"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Scopri di più sulle regole personalizzate"]

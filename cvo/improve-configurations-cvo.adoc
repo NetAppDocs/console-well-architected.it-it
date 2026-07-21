@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: 'Workload factory analizza le configurazioni di Cloud Volumes ONTAP fornendo informazioni e raccomandazioni per aiutarti a raggiungere l"eccellenza operativa.' 
+summary: 'La dashboard ben progettata analizza le configurazioni di Cloud Volumes ONTAP, fornendo informazioni e raccomandazioni per aiutarti a raggiungere l"eccellenza operativa.' 
 ---
 = Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["Scopri l'analisi della configurazione e lo
 [[about-this-task]]
 == Informazioni su questa attività
 
-NetApp analizza quotidianamente le implementazioni del sistema Cloud Volumes ONTAP in Microsoft Azure. L'analisi giornaliera fornisce lo stato well-architected, oltre a informazioni e raccomandazioni per aiutarti a risolvere i problemi di configurazione, così che i tuoi sistemi rispettino le best practice.
+La dashboard well-architected analizza quotidianamente le configurazioni di distribuzione del sistema Cloud Volumes ONTAP su Microsoft Azure. L'analisi giornaliera fornisce lo stato well-architected, approfondimenti e raccomandazioni.
 
-Puoi visualizzare i suggerimenti per i problemi di configurazione dei tuoi sistemi senza installare un agente Console; tuttavia, la connettività con l'agente Console permette a NetApp di fornirti l'analisi più completa possibile delle risorse del tuo sistema.
+La connettività tramite Link o agente Console consente alla dashboard ben strutturata nella NetApp Console di eseguire una scansione completa dei tuoi sistemi Cloud Volumes ONTAP per individuare problemi di prestazioni, protezione dei dati e configurazioni. Questo ti assicura di ricevere informazioni accurate e raccomandazioni per ottimizzare i tuoi sistemi Cloud Volumes ONTAP.
 
-Al termine dell'analisi giornaliera, la dashboard visualizza il numero totale di risorse ben progettate, il numero di risorse in stato critico e il numero di risorse in stato di avviso. Le configurazioni sono categorizzate in base ai pilastri del framework well-architected: affidabilità, eccellenza operativa, ottimizzazione dei costi, efficienza delle prestazioni e sicurezza. La dashboard include anche una tabella che elenca tutte le configurazioni, lo stato well-architected di tali configurazioni, la gravità, la categoria, il tipo di risorsa (volume o sistema), le risorse interessate e l'opzione per visualizzare la raccomandazione quando la configurazione non è ottimizzata.
+I requisiti di configurazione dello storage variano. Puoi escludere dall'analisi le configurazioni specifiche che non si applicano al tuo ambiente di storage. Questo ti aiuta a evitare avvisi non necessari e risultati di ottimizzazione imprecisi.
 
 
 

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/configuration-analysis-cvo.html 
 keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
-summary: NetApp Console analizza quotidianamente le configurazioni del sistema storage per individuare eventuali problemi di configurazione. 
+summary: La dashboard ben progettata nella NetApp Console analizza quotidianamente le configurazioni del sistema Cloud Volumes ONTAP per individuare eventuali problemi di configurazione. 
 ---
 = Analisi della configurazione per Cloud Volumes ONTAP
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Console analizza quotidianamente le configurazioni del sistema s
 
 
 [role="lead"]
-NetApp Console analizza regolarmente le configurazioni dei sistemi storage per determinare se ci sono problemi di configurazione. Quando vengono rilevati problemi, la Console ti mostra quali sono e spiega cosa deve essere cambiato per assicurarti che i tuoi sistemi storage raggiungano prestazioni di picco, efficienza dei costi e conformità alle best practice.
+La dashboard ben progettata di NetApp Console analizza regolarmente le configurazioni dei sistemi storage per determinare se ci sono problemi di configurazione nei tuoi sistemi Cloud Volumes ONTAP. Quando vengono rilevati problemi, la dashboard ti mostra quali sono e spiega cosa deve essere cambiato per assicurare che i tuoi sistemi storage raggiungano prestazioni ottimali, efficienza dei costi e conformità alle best practice.
 
 Le principali funzionalità includono:
 
@@ -26,14 +26,14 @@ Le principali funzionalità includono:
 [[analysis-requirements]]
 == Requisiti di analisi
 
-Per un'analisi completa del sistema Cloud Volumes ONTAP, devi link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["distribuire un agente NetApp Console"^]. La connettività dell'agente della Console permette alla Console di analizzare tutte le configurazioni del sistema Cloud Volumes ONTAP, come la protezione dei dati e le prestazioni.
+Per un'analisi completa del sistema Cloud Volumes ONTAP, devi link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["distribuire un agente NetApp Console"^] configurare la connettività tra i tuoi sistemi e la NetApp Console.
 
 
 
 [[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
 == Best practice e raccomandazioni per i sistemi Cloud Volumes ONTAP
 
-NetApp valuta le configurazioni di storage per fornire una panoramica approfondita delle best practice di configurazione di ONTAP e per verificarne la conformità con l'Azure Well-Architected Framework. La valutazione suggerisce anche miglioramenti e correzioni.
+La dashboard well-architected valuta le configurazioni di storage per fornire una visione approfondita delle best practice di configurazione di ONTAP e per verificarne la conformità con l'Azure Well-Architected Framework. La valutazione suggerisce anche miglioramenti e correzioni.
 
 L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del framework: , , ,  ed .
 
@@ -42,7 +42,7 @@ L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del
 [[reliability]]
 === Affidabilità
 
-L'affidabilità garantisce che i carichi di lavoro svolgano le funzioni previste in modo corretto e coerente, anche in presenza di interruzioni.
+L'affidabilità garantisce che i carichi di lavoro svolgano le funzioni previste in modo corretto e coerente, anche in caso di interruzioni.
 
 * *Pianifica snapshot locali*
 +
@@ -50,7 +50,7 @@ Pianifica snapshot locali per un backup efficiente e ripristini rapidi. Gli snap
 
 * *Soglia di capacità SSD*
 +
-La capacità del tier di storage SSD non dovrebbe superare l'80% di utilizzo su base continuativa. Superare questa soglia può degradare il throughput e rendere i volumi di dati di sola lettura, causando l'interruzione delle operazioni di scrittura.
+La capacità del tier di storage SSD non dovrebbe superare l'80% di utilizzo in modo continuativo. Superare questa soglia può degradare il throughput, rendere i volumi di dati di sola lettura e causare il fallimento delle operazioni di scrittura.
 
 
 
@@ -80,7 +80,7 @@ NetApp consiglia che la capacità del volume non superi l'80% di utilizzo su bas
 
 * *Modalità di scrittura della cache*
 +
-Per prestazioni ottimali, NetApp consiglia la modalità di scrittura della cache più adatta al tuo carico di lavoro. La modalità write-around offre prestazioni migliori per carichi di lavoro con un elevato numero di letture e file di piccole dimensioni, mentre la modalità write-back offre prestazioni migliori per carichi di lavoro con un elevato numero di scritture e file di grandi dimensioni.
+Per prestazioni ottimali, NetApp consiglia la modalità di scrittura della cache più adatta al tuo carico di lavoro. La modalità write-around offre prestazioni migliori per carichi di lavoro con prevalenza di letture e file di piccole dimensioni, mentre la modalità write-back offre prestazioni migliori per carichi di lavoro con prevalenza di scritture e file di grandi dimensioni.
 
 * *Dimensione del volume della cache ONTAP*
 +
@@ -101,7 +101,7 @@ L'ottimizzazione dei costi ti aiuta a ottenere il massimo valore per la tua atti
 
 * *Individua la capacità SSD sottoutilizzata*
 +
-Un tier di capacità SSD sottoutilizzato potrebbe comportare costi inutili. NetApp consiglia di ridurre la capacità del tier SSD mantenendo un buffer di spazio libero del 20% rispetto alla capacità attualmente utilizzata. Un'operazione di riduzione può richiedere da diverse ore a diversi giorni e, durante questo periodo, il sistema non supporta altre operazioni sul file system.
+Un tier di capacità SSD sottoutilizzato può comportare costi inutili. NetApp consiglia di ridurre la capacità del tier SSD mantenendo un buffer di spazio libero del 20% rispetto alla capacità attualmente utilizzata. Un'operazione di riduzione richiede da diverse ore a diversi giorni e, durante questo periodo, le altre operazioni di sistema non sono supportate.
 
 * *Policy di tiering dei dati*
 +
@@ -110,4 +110,4 @@ Abilita il tiering dei dati inattivi per spostare i dati inattivi dal tier di st
 
 
 .Cosa c'è dopo
-link:cvo/improve-configurations-cvo.html["Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate"]
+link:improve-configurations-cvo.html["Implementa configurazioni di sistema Cloud Volumes ONTAP ben strutturate"]
