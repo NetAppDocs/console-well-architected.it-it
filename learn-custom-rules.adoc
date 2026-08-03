@@ -26,6 +26,9 @@ Il costruttore di regole ti permette di creare regole personalizzate basate sull
 Le regole personalizzate ti aiutano a far rispettare gli standard, i limiti di rischio e i requisiti operativi della tua organizzazione—cose che le regole generiche dei fornitori potrebbero non coprire completamente.
 
 
+NOTE: Se l'amministratore del tuo account ha disattivato le funzionalità AI, il costruttore di regole non sarà disponibile e non potrai creare regole personalizzate. link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come gestire le funzionalità di intelligenza artificiale"^].
+
+
 
 [[how-custom-rules-work]]
 == Come funzionano le regole personalizzate

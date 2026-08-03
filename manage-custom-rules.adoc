@@ -42,7 +42,7 @@ I risultati mostrano quali risorse seguono la tua regola e quali no.
 . Seleziona **Visualizza dettagli** per vedere i risultati di ogni esecuzione.
 
 
-Se il controllo non è andato a buon fine per alcuni elementi, leggi il messaggio di errore per scoprirne il motivo. Le cause più comuni sono problemi di connessione, autorizzazioni mancanti o un Link/Connector non configurato.
+Se il controllo non è andato a buon fine per alcuni elementi, leggi il messaggio di errore per scoprirne il motivo. Le cause più comuni sono problemi di connessione, autorizzazioni mancanti o un collegamento non configurato.
 
 
 
@@ -110,7 +110,7 @@ Fallito:: La valutazione non è stata completata. Le cause più comuni includono
 Se una regola continua a fallire o ha successo solo parzialmente, verifica che:
 
 * Le credenziali AWS hanno accesso in sola lettura a tutte le risorse.
-* Il collegamento e il connettore sono configurati per tutti i file system nell'ambito.
+* Gli agenti Link e Console sono configurati per tutti i file system nell'ambito.
 * L'utente visualizzatore FSx per ONTAP ha le autorizzazioni appropriate.
 
 

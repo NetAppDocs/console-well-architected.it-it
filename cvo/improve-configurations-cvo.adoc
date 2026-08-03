@@ -52,5 +52,111 @@ Facoltativamente, seleziona image:button_download.png["Uno screenshot dell'icona
 . Esamina la raccomandazione.
 
 
-.Cosa c'è dopo
-Risolvi i problemi di configurazione per mantenere i tuoi sistemi in funzione con prestazioni ottimali.
+
+
+[[fix-a-configuration-issue]]
+== Risolvi un problema di configurazione
+
+Puoi risolvere i problemi di configurazione per un sistema Cloud Volumes ONTAP o per volumi selezionati in un file system. Puoi selezionare una o più configurazioni da correggere.
+
+Il processo di correzione può causare tempi di inattività dell'istanza o interruzioni del servizio. Esamina attentamente ogni raccomandazione prima di risolvere un problema di configurazione.
+
+.Passaggi
+. Accedi al link:https://console.netapp.com/home["NetApp Console"^].
+. Dal menu NetApp Console, seleziona *Carichi di lavoro* e poi *Well-architected*.
+. Dalla dashboard di Well-architected, seleziona *Visualizza* per qualsiasi configurazione.
++
+Assicurati di esaminare attentamente la raccomandazione. La raccomandazione illustra le best practice e le potenziali insidie di configurazioni non ottimizzate.
+
+. Seleziona per *Correggere*.
++
+Quando *Visualizza e correggi* è un'opzione, seleziona i volumi interessati da correggere.
+
+. Esamina il riepilogo e le azioni da intraprendere che compaiono nella finestra di dialogo per scoprire cosa succede se risolvi il problema. Alcune operazioni possono causare tempi di inattività dell'istanza o interruzioni del servizio.
+. Seleziona *Continua* per risolvere il problema di configurazione.
+
+
+.Risultato
+Workload Factory avvia il processo per risolvere il problema. Seleziona il menu delle impostazioni dell'account e poi seleziona *Tracker* per visualizzare lo stato dell'operazione.
+
+
+
+[[dismiss-a-configuration-analysis]]
+== Ignora un'analisi di configurazione
+
+Interrompi un'analisi della configurazione per un sistema Cloud Volumes ONTAP o per volumi selezionati. Puoi riavviare l'analisi quando necessario.
+
+[role="tabbed-block"]
+====
+.Ignora un'analisi di configurazione per un file system
+--
+.Passaggi
+. Accedi al link:https://console.netapp.com/home["NetApp Console"^].
+. Dal menu NetApp Console, seleziona *Carichi di lavoro* e poi *Well-architected*.
+. Dalla dashboard di Well-architected, seleziona *Visualizza* per qualsiasi configurazione.
+. In Configurazioni, identifica la configurazione che non si applica al tuo ambiente e quindi seleziona *Ignora*.
+. Nella finestra di dialogo Chiudi configurazione, seleziona *Chiudi* per interrompere l'analisi della configurazione.
+
+
+--
+.Ignora un'analisi di configurazione per un volume
+--
+.Passaggi
+. Accedi al link:https://console.netapp.com/home["NetApp Console"^].
+. Dal menu NetApp Console, seleziona *Carichi di lavoro* e poi *Well-architected*.
+. Dalla dashboard di Well-architected, seleziona *Visualizza* per qualsiasi configurazione.
+. In Configurazioni, identifica la configurazione da ignorare per i volumi selezionati e quindi seleziona *Visualizza e correggi*.
+. Identifica i volumi da escludere dall'analisi della configurazione.
++
+** Per un singolo volume: seleziona il menu Azioni e poi seleziona *Ignora volume*.
+** Per più volumi: seleziona i volumi e poi seleziona *Ignora* accanto a Bulk action.
+
+
+. Seleziona *Ignora* per interrompere l'analisi della configurazione.
+. Nella finestra di dialogo Dismiss volumes, seleziona *Dismiss* per confermare.
+
+
+--
+====
+.Risultato
+L'analisi della configurazione si interrompe per il file system o i volumi selezionati.
+
+È possibile riattivare l'analisi in qualsiasi momento.
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== Riattivare un'analisi di configurazione ignorata
+
+Puoi riattivare in qualsiasi momento un'analisi di configurazione precedentemente chiusa per un sistema Cloud Volumes ONTAP. Puoi selezionare una o più configurazioni da riattivare.
+
+[role="tabbed-block"]
+====
+.Riattiva un'analisi di configurazione per un file system
+--
+.Passaggi
+. Accedi al link:https://console.netapp.com/home["NetApp Console"^].
+. Dal menu NetApp Console, seleziona *Carichi di lavoro* e poi *Well-architected*.
+. Seleziona *Configurazioni ignorate*.
+. Individua la configurazione che desideri riattivare e seleziona *Riattiva*.
+
+
+--
+.Riattiva un'analisi di configurazione per un volume
+--
+.Passaggi
+. Accedi al link:https://console.netapp.com/home["NetApp Console"^].
+. Dal menu NetApp Console, seleziona *Carichi di lavoro* e poi *Well-architected*.
+. Seleziona *Configurazioni ignorate*.
+. Identifica il/i volume/i da riattivare dall'analisi della configurazione.
++
+** Per un volume: seleziona il menu azioni e poi seleziona *Riattiva volume*.
+** Per più volumi: seleziona i volumi e poi seleziona *Riattiva* accanto a Bulk action.
+
+
+
+
+--
+====
+.Risultato
+Il sistema riattiva l'analisi della configurazione. Ogni giorno viene eseguita una nuova analisi.

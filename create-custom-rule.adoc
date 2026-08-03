@@ -16,15 +16,18 @@ summary: Crea una regola architetturale personalizzata utilizzando il linguaggio
 [role="lead"]
 Crea regole personalizzate descrivendole in linguaggio naturale. Il costruttore di regole AI trasforma la tua richiesta in una regola validata che controlla le risorse FSx for ONTAP.
 
+.Informazioni su questa attività
+Il processo di creazione delle regole ti guida attraverso i vari passaggi: definizione della regola, revisione di come l'IA l'ha interpretata e verifica dei risultati prima di programmare le valutazioni periodiche. Rimani in controllo a ogni passaggio. Il sistema suggerisce una regola in base alla tua richiesta, ma nulla va avanti finché non la confermi.
+
+
+NOTE: Se l'amministratore del tuo account ha disattivato le funzionalità di intelligenza artificiale, visualizzerai un messaggio e non potrai creare regole personalizzate. Contatta il tuo amministratore o link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come amministrare l'AI"^].
+
 .Prima di iniziare
 * Hai configurato le credenziali AWS con accesso di sola lettura.
 * Hai le credenziali ONTAP con permessi di visualizzazione.
 * Hai un collegamento o un agente configurato per la connettività FSx for ONTAP.
 * Comprendi che la creazione di regole personalizzate utilizza il servizio Bedrock AI di NetApp.
 
-
-.Informazioni su questa attività
-Il processo di creazione delle regole ti guida attraverso i vari passaggi: definizione della regola, revisione di come l'IA l'ha interpretata e verifica dei risultati prima di programmare le valutazioni periodiche. Rimani in controllo a ogni passaggio. Il sistema suggerisce una regola in base alla tua richiesta, ma nulla va avanti finché non la confermi.
 
 
 
