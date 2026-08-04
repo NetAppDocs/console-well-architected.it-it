@@ -88,7 +88,7 @@ Interrompi un'analisi della configurazione per un sistema Cloud Volumes ONTAP o 
 
 [role="tabbed-block"]
 ====
-.Ignora un'analisi di configurazione per un file system
+.Ignora un'analisi di configurazione per un sistema
 --
 .Passaggi
 . Accedi al link:https://console.netapp.com/home["NetApp Console"^].
@@ -119,7 +119,7 @@ Interrompi un'analisi della configurazione per un sistema Cloud Volumes ONTAP o 
 --
 ====
 .Risultato
-L'analisi della configurazione si interrompe per il file system o i volumi selezionati.
+L'analisi della configurazione si interrompe per il sistema o i volumi selezionati.
 
 È possibile riattivare l'analisi in qualsiasi momento.
 
@@ -132,7 +132,7 @@ Puoi riattivare in qualsiasi momento un'analisi di configurazione precedentement
 
 [role="tabbed-block"]
 ====
-.Riattiva un'analisi di configurazione per un file system
+.Riattiva un'analisi di configurazione per un sistema
 --
 .Passaggi
 . Accedi al link:https://console.netapp.com/home["NetApp Console"^].
