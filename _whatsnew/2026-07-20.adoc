@@ -11,11 +11,7 @@ La dashboard ben strutturata di NetApp Console offre una visione unificata dei t
 
 Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard ben progettata"].
 
-La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
-
+La dashboard ben progettata nella Console è disponibile per link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure."]
 
 
 

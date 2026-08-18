@@ -34,70 +34,6 @@ Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/gc
 
 
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== Nomi di configurazione aggiornati per FSx for ONTAP nella dashboard well-architected
-
-La dashboard ben progettata di NetApp Console ora presenta nomi di configurazione dello storage aggiornati per FSx for ONTAP, per migliorare chiarezza e coerenza.
-
-La tabella seguente elenca i vecchi nomi di configurazione e i corrispondenti nuovi nomi di configurazione nella well-architected dashboard.
-
-[cols="1,1"]
-|===
-| Vecchio nome della configurazione | Nuovo nome configurazione 
-
-
-| Pianifica i backup dei volumi | Backup dei volumi 
-
-
-| soglia di capacità SSD | margine di capacità SSD 
-
-
-| Soglia di capacità del file | Margine di capacità dei file 
-
-
-| Affidabilità dei dati di conservazione a lungo termine | Etichette delle policy di replica 
-
-
-| Snapshot locali programmati | policy di Snapshot 
-
-
-| Elimina i backup non necessari | Scadenza del backup 
-
-
-| Elimina le Snapshot non necessarie | Scadenza della Snapshot 
-
-
-| Capacità SSD sottoutilizzata | Capacità SSD sovradimensionata 
-
-
-| Dispositivi di blocco inattivi | Dispositivi di blocco inattivi (LUN) 
-
-
-| Ottimizza il TCO eseguendo il tiering dei dati a freddo | Tiering dei dati freddi 
-
-
-| Reportistica sulla capacità logica del volume | Reportistica della capacità visibile all'host 
-
-
-| Riequilibrio dei volumi FlexGroup | Ribilancia i volumi FlexGroup 
-
-
-| Riequilibrio dei volumi FlexVol | Ribilancia i volumi FlexVol 
-
-
-| Modalità di scrittura della relazione di cache | Modalità di scrittura FlexCache 
-
-
-| Ottimizza la dimensione del volume della cache | Dimensioni della replica FlexCache 
-
-
-| Accesso non autorizzato al volume | Accesso non autorizzato al volume iSCSI 
-
-
-| ARP/AI disabilitato | Protezione ransomware (ARP/AI) 
-|===
-
-
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]
 === Correggi, ignora e riattiva le configurazioni per Cloud Volumes ONTAP in Microsoft Azure
 
@@ -123,11 +59,7 @@ La dashboard ben strutturata di NetApp Console offre una visione unificata dei t
 
 Scopri di più su link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard ben progettata"].
 
-La dashboard ben progettata nella Console è disponibile per i seguenti sistemi storage:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
-
+La dashboard ben progettata nella Console è disponibile per link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure."]
 
 
 
