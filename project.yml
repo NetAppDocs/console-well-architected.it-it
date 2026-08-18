@@ -35,6 +35,12 @@ sidebar:
         url: "/cvo/configuration-analysis-cvo.html"
       - title: Migliora le configurazioni di sistema
         url: "/cvo/improve-configurations-cvo.html"
+    - title: Google Cloud NetApp Volumes
+      entries:
+      - title: Analisi della configurazione
+        url: "/gcnv/configuration-analysis-gcnv.html"
+      - title: Migliora le configurazioni del pool di storage
+        url: "/gcnv/improve-configurations-gcnv.html"
   - title: Crea le tue regole
     entries:
     - title: Scopri le regole personalizzate
