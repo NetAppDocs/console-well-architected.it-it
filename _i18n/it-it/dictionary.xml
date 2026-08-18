@@ -673,4 +673,5 @@
   <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">La dashboard ben progettata in NetApp Console ora include nuovi nomi di configurazione dello storage per FSx for ONTAP.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problemi ben strutturati visualizzati nella pagina Sistemi di NetApp Console</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Le notifiche relative ai problemi di architettura ben definita sono disponibili per Cloud Volumes ONTAP in Microsoft Azure dalla pagina Storage management Systems nella NetApp Console. Questa funzionalità ti aiuta a identificare rapidamente i problemi di configurazione nei tuoi sistemi Cloud Volumes ONTAP in Azure e a navigare al dashboard Workloads well-architected direttamente dalla notifica.</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 agosto 2026</block>
 </blocks>
