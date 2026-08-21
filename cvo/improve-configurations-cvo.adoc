@@ -33,6 +33,12 @@ I requisiti di configurazione dello storage variano. Puoi escludere dall'analisi
 
 * Devi link:https://console.netapp.com/add-working-environment/choose-type["aggiungi un sistema Cloud Volumes ONTAP"] accedere alla NetApp Console per visualizzare lo stato dell'architettura e i suggerimenti per i problemi di configurazione.
 * link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["Dovresti distribuire un agente Console"] per l'analisi più completa delle risorse del tuo sistema.
+* Consenti la connettività di rete outbound verso i seguenti endpoint:
++
+** \https://api.workloads.netapp.com
+** \https://ws.workloads.bluexp.netapp.com
+
+
 
 
 
