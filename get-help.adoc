@@ -4,7 +4,7 @@ permalink: get-help.html
 keywords: help, ticket, open support case, support, netapp support, technical support, call support, phone number, open ticket, web ticket, open an issue, NetApp Console 
 summary: 'NetApp offre supporto per la NetApp Console in diversi modi. Sono disponibili numerose opzioni di auto-supporto gratuite 24x7, come articoli della knowledgebase (KB) e un forum della community. La registrazione al supporto include supporto tecnico remoto tramite ticket web.' 
 ---
-= Ottieni aiuto
+= Ottieni assistenza con i servizi cloud di NetApp Console
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

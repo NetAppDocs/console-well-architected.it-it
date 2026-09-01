@@ -4,7 +4,7 @@ permalink: register-support.html
 keywords: support registration, register for support, support, nss account, add nss account, NetApp Console 
 summary: Prima di poter aprire una richiesta di assistenza con il supporto tecnico NetApp, devi aggiungere un account NetApp Support Site alla NetApp Console e poi registrarti per il supporto. 
 ---
-= Registrati per ricevere supporto
+= Registrati per ricevere supporto con NetApp Console
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/

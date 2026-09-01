@@ -678,4 +678,20 @@
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">Consenti la connettività di rete outbound verso i seguenti endpoint:</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Valutazione della replica remota dei dati per Cloud Volumes ONTAP</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">È disponibile una nuova valutazione per verificare se i dati di Cloud Volumes ONTAP sono protetti tramite replica remota. Ti aiuta a garantire che il tuo piano di protezione dei dati segua le best practice per il disaster recovery e la business continuity.</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Scopri l'analisi della configurazione per Cloud Volumes ONTAP</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">Scarta intere configurazioni ben progettate</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">Ora puoi escludere un'intera configurazione consigliata dalla tua dashboard. Questo ti dà un maggiore controllo su quali consigli e valutazioni vengono visualizzati per il tuo ambiente.</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">Raccomandazioni sul carico di lavoro del database nella dashboard well-architected</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">Le raccomandazioni per i carichi di lavoro di database che utilizzano FSx per ONTAP sono ora disponibili nella dashboard well-architected in NetApp Console. Puoi vedere lo stato sia delle tue risorse di storage sia dei carichi di lavoro di database in un unico posto, ottenendo una visione completa dello stato di salute della tua infrastruttura.</block>
+  <block id="e4e3f7accbddfb89b3512b66c5a8a37b" category="doc">Crea una regola personalizzata in NetApp Console</block>
+  <block id="c465a7bd98f96ab6b7e15dbed5471998" category="list-text">*Replica dei dati remota*</block>
+  <block id="b03b92c4dfcafd9226ecc9026f960e01" category="paragraph">Proteggi i dati di Cloud Volumes ONTAP tramite la replica remota. La replica dei dati remota offre funzionalità di ripristino di emergenza, mantenendo copie sincronizzate dei tuoi dati in posizioni diverse e garantendo la continuità operativa in caso di guasti o disastri del sistema.</block>
+  <block id="3c768f8b4f33704ddf416410c4e008a7" category="doc">Ottieni assistenza con i servizi cloud di NetApp Console</block>
+  <block id="ce6ef2ffcadf69c1dc27dcb9da2d801d" category="doc">Scopri le regole personalizzate in NetApp Console</block>
+  <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">Gestisci le regole personalizzate in NetApp Console</block>
+  <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">Registrati per ricevere supporto con NetApp Console</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30 agosto 2026</block>
 </blocks>

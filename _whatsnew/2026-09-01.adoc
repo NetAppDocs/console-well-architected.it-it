@@ -1,0 +1,26 @@
+= Valutazione della replica remota dei dati per Cloud Volumes ONTAP
+:allow-uri-read: 
+
+
+
+
+[[remote-data-replication-assessment-for-cloud-volumes-ontap]]
+=== Valutazione della replica remota dei dati per Cloud Volumes ONTAP
+
+È disponibile una nuova valutazione per verificare se i dati di Cloud Volumes ONTAP sono protetti tramite replica remota. Ti aiuta a garantire che il tuo piano di protezione dei dati segua le best practice per il disaster recovery e la business continuity.
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Scopri l'analisi della configurazione per Cloud Volumes ONTAP"]
+
+
+
+[[dismiss-entire-well-architected-configurations]]
+=== Scarta intere configurazioni ben progettate
+
+Ora puoi escludere un'intera configurazione consigliata dalla tua dashboard. Questo ti dà un maggiore controllo su quali consigli e valutazioni vengono visualizzati per il tuo ambiente.
+
+
+
+[[database-workload-recommendations-in-the-well-architected-dashboard]]
+=== Raccomandazioni sul carico di lavoro del database nella dashboard well-architected
+
+Le raccomandazioni per i carichi di lavoro di database che utilizzano FSx per ONTAP sono ora disponibili nella dashboard well-architected in NetApp Console. Puoi vedere lo stato sia delle tue risorse di storage sia dei carichi di lavoro di database in un unico posto, ottenendo una visione completa dello stato di salute della tua infrastruttura.

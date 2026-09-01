@@ -4,7 +4,7 @@ permalink: create-custom-rule.html
 keywords: create custom rule, byor, custom rules, fsx, ontap, well architected, rule builder 
 summary: Crea una regola architetturale personalizzata utilizzando il linguaggio naturale per applicare gli standard organizzativi per FSx for ONTAP. 
 ---
-= Crea una regola personalizzata
+= Crea una regola personalizzata in NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

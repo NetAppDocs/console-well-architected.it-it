@@ -4,7 +4,7 @@ permalink: learn-custom-rules.html
 keywords: custom rules, byor, bring your own rules, fsx, ontap, well architected, organizational standards 
 summary: Impara a definire e gestire le tue regole architetturali per garantire il rispetto degli standard organizzativi insieme alle best practice di NetApp. 
 ---
-= Scopri le regole personalizzate
+= Scopri le regole personalizzate in NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
