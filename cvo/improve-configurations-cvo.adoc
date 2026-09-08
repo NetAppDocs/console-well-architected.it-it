@@ -11,7 +11,9 @@ summary: 'La dashboard ben progettata analizza le configurazioni di Cloud Volume
 
 
 [role="lead"]
-Grazie alle analisi di configurazione e ai suggerimenti, sfrutta NetApp per implementare le best practice per i tuoi sistemi Cloud Volumes ONTAP in esecuzione su storage Microsoft Azure. Puoi facilmente verificare lo stato dell'architettura, scoprire eventuali problemi nelle tue configurazioni e ottenere consigli per migliorare l'architettura di qualsiasi sistema che non sia ottimizzato per affidabilità, sicurezza, efficienza, prestazioni e costi.
+NetApp ti aiuta a implementare le best practice per i tuoi sistemi Cloud Volumes ONTAP in esecuzione su storage Microsoft Azure, grazie a informazioni e raccomandazioni derivanti dall'analisi della configurazione. Puoi esaminare lo stato di ottimizzazione dell'architettura, individuare i problemi di configurazione e ricevere suggerimenti per migliorare l'architettura dei sistemi che non sono ottimizzati in termini di affidabilità, sicurezza, efficienza, prestazioni e costi.
+
+Puoi anche ignorare l'analisi di specifiche configurazioni di storage che non si applicano al tuo ambiente di storage, per evitare avvisi inutili e risultati di ottimizzazione imprecisi.
 
 link:configuration-analysis-cvo.html["Scopri l'analisi della configurazione e lo stato ben architettato."]
 
@@ -20,11 +22,11 @@ link:configuration-analysis-cvo.html["Scopri l'analisi della configurazione e lo
 [[about-this-task]]
 == Informazioni su questa attività
 
-La dashboard well-architected analizza quotidianamente le configurazioni di distribuzione del sistema Cloud Volumes ONTAP su Microsoft Azure. L'analisi giornaliera fornisce lo stato well-architected, approfondimenti e raccomandazioni.
+Workload Factory analizza ogni giorno le configurazioni del sistema Cloud Volumes ONTAP su Microsoft Azure. L'analisi giornaliera fornisce lo stato well-architected, approfondimenti e raccomandazioni. Puoi correggere automaticamente i problemi di configurazione per rispettare le best practice.
 
-La connettività tramite Link o agente Console consente alla dashboard ben strutturata nella NetApp Console di eseguire una scansione completa dei tuoi sistemi Cloud Volumes ONTAP per individuare problemi di prestazioni, protezione dei dati e configurazioni. Questo ti assicura di ricevere informazioni accurate e raccomandazioni per ottimizzare i tuoi sistemi Cloud Volumes ONTAP.
+La connettività tramite Link o Console agent consente a Workload Factory di eseguire una scansione completa dei tuoi sistemi Cloud Volumes ONTAP per individuare problemi di prestazioni, protezione dei dati e configurazioni. Questo ti assicura di ricevere informazioni e raccomandazioni accurate per ottimizzare i tuoi sistemi Cloud Volumes ONTAP.
 
-I requisiti di configurazione dello storage variano. Puoi escludere dall'analisi le configurazioni specifiche che non si applicano al tuo ambiente di storage. Questo ti aiuta a evitare avvisi non necessari e risultati di ottimizzazione imprecisi.
+I requisiti di configurazione dello storage variano. Puoi ignorare l'analisi delle configurazioni specifiche che non si applicano al tuo ambiente di storage. Ignorare le configurazioni che non si applicano ti aiuta a evitare avvisi inutili e risultati di ottimizzazione imprecisi.
 
 
 
@@ -74,10 +76,7 @@ Il processo di correzione può causare tempi di inattività dell'istanza o inter
 +
 Assicurati di esaminare attentamente la raccomandazione. La raccomandazione illustra le best practice e le potenziali insidie di configurazioni non ottimizzate.
 
-. Seleziona per *Correggere*.
-+
-Quando *Visualizza e correggi* è un'opzione, seleziona i volumi interessati da correggere.
-
+. Seleziona *Correggi* per un singolo volume oppure *Visualizza e correggi* per più volumi. Per più volumi, seleziona i volumi interessati da correggere.
 . Esamina il riepilogo e le azioni da intraprendere che compaiono nella finestra di dialogo per scoprire cosa succede se risolvi il problema. Alcune operazioni possono causare tempi di inattività dell'istanza o interruzioni del servizio.
 . Seleziona *Continua* per risolvere il problema di configurazione.
 

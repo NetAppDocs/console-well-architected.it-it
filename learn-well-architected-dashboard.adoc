@@ -11,25 +11,25 @@ summary: 'La dashboard ben progettata di NetApp Console analizza le configurazio
 
 
 [role="lead"]
-La dashboard ben progettata di NetApp Console ti aiuta a mantenere e gestire configurazioni affidabili, sicure, efficienti e convenienti che sono in linea con i framework ben progettati per il tipo di storage che usi. La dashboard offre una visione unificata tra account e regioni, aiuta i team a identificare e dare priorità ai rischi e supporta regole personalizzate per requisiti specifici. Le scansioni automatiche giornaliere delle configurazioni del tuo sistema storage forniscono informazioni e suggerimenti per aiutarti a ottimizzare i tuoi ambienti di storage.
+NetApp Workload Factory ti aiuta a mantenere e gestire configurazioni affidabili, sicure, efficienti e convenienti, in linea con i framework ben strutturati per il tipo di storage che utilizzi. La dashboard ben strutturata nella NetApp Console offre una visione unificata tra account e regioni, aiuta i team a identificare e dare priorità ai rischi e supporta regole personalizzate per requisiti specifici. Le scansioni giornaliere automatiche delle configurazioni del tuo sistema storage forniscono informazioni e raccomandazioni per aiutarti a ottimizzare i tuoi ambienti di storage.
 
 
 
 [[how-it-works]]
 == Come funziona
 
-La dashboard well-architected analizza quotidianamente le tue configurazioni. L'analisi fornisce stato well-architected, approfondimenti e raccomandazioni.
+Workload Factory analizza quotidianamente le tue configurazioni. L'analisi fornisce stato ben architettato, approfondimenti e raccomandazioni per aiutarti a ottimizzare i tuoi ambienti di storage.
 
-Al termine dell'analisi giornaliera, le configurazioni vengono visualizzate come "ottimizzate" o "non ottimizzate" nella dashboard di well-architected. Trovi il punteggio totale di ottimizzazione, i problemi di configurazione per categoria e un elenco di problemi di configurazione e raccomandazioni. Puoi rivedere le raccomandazioni per i problemi di configurazione. Alcuni problemi possono essere risolti automaticamente dalla dashboard di well-architected, mentre altri richiedono un intervento manuale. In questo caso, la dashboard di well-architected ti fornisce istruzioni dettagliate per aiutarti a implementare le modifiche consigliate.
+Al termine dell'analisi giornaliera, le configurazioni vengono visualizzate come "ottimizzate" o "non ottimizzate" nella dashboard Well-Architected. Troverai i problemi di configurazione suddivisi per categoria del framework Well-Architected (affidabilità, sicurezza, eccellenza operativa, ottimizzazione dei costi ed efficienza delle prestazioni) e un elenco di problemi di configurazione e raccomandazioni. Workload Factory può risolvere alcuni problemi automaticamente, mentre altri richiedono un intervento manuale. In questo caso, la raccomandazione fornisce istruzioni dettagliate per aiutarti a implementare le modifiche.
 
-Puoi ignorare l'analisi delle configurazioni che non si applicano ai tuoi ambienti. Questo evita avvisi non necessari e risultati di ottimizzazione imprecisi. Quando ignori l'analisi di una configurazione specifica, la well-architected dashboard non include la configurazione nel punteggio totale di ottimizzazione.
+Puoi ignorare l'analisi delle configurazioni che non si applicano ai tuoi ambienti. Ignorare le configurazioni evita avvisi inutili e risultati di ottimizzazione imprecisi.
 
 
 
 [[why-it-matters]]
 == Perché è importante
 
-La dashboard ben strutturata di NetApp Console applica le best practice ad ampi ambienti di storage, database e VMware, combinando la valutazione continua con suggerimenti e interventi correttivi. La correzione automatizzata applicata nella dashboard ben strutturata riduce gli errori umani, garantisce una gestione uniforme e preserva prestazioni e affidabilità nelle tue infrastrutture di sistema.
+Workload Factory applica le best practice ad ambienti di storage, database e VMware di grandi dimensioni, combinando valutazioni continue con suggerimenti e interventi correttivi. La correzione automatizzata riduce gli errori umani, garantisce una gestione uniforme e preserva prestazioni e affidabilità nelle tue infrastrutture di sistema.
 
 
 

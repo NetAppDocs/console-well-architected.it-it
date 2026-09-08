@@ -11,7 +11,7 @@ summary: 'La dashboard ben progettata analizza le configurazioni di Amazon FSx f
 
 
 [role="lead"]
-Utilizzando le analisi di configurazione e i suggerimenti, puoi sfruttare NetApp per implementare le best practice per i tuoi file system FSx for ONTAP. Puoi facilmente verificare lo stato well-architected, scoprire eventuali problemi nelle tue configurazioni e intervenire per migliorare l'architettura di qualsiasi sistema che non sia ottimizzato per affidabilità, sicurezza, efficienza, prestazioni e costi.
+NetApp ti aiuta a implementare le best practice per i tuoi file system FSx for ONTAP utilizzando informazioni e raccomandazioni derivanti dall'analisi della configurazione. Puoi esaminare lo stato well-architected, conoscere i problemi delle tue configurazioni e ottenere raccomandazioni per migliorare l'architettura dei sistemi che non sono ottimizzati per affidabilità, sicurezza, efficienza, prestazioni e costi.
 
 Puoi anche ignorare l'analisi di specifiche configurazioni di storage che non si applicano al tuo ambiente di storage, per evitare avvisi inutili e risultati di ottimizzazione imprecisi.
 
@@ -22,11 +22,11 @@ link:configuration-analysis-fsx.html["Scopri l'analisi della configurazione e lo
 [[about-this-task]]
 == Informazioni su questa attività
 
-La dashboard well-architected analizza ogni giorno le configurazioni di distribuzione del file system Amazon FSx for NetApp ONTAP. L'analisi giornaliera fornisce lo stato well-architected, approfondimenti e raccomandazioni. Puoi correggere automaticamente i problemi di configurazione per rispettare le best practice.
+Workload Factory analizza ogni giorno le configurazioni di distribuzione del file system Amazon FSx for NetApp ONTAP. L'analisi giornaliera fornisce lo stato well-architected, approfondimenti e raccomandazioni. Puoi correggere automaticamente i problemi di configurazione per rispettare le best practice.
 
-La connettività tramite Link o agente Console consente alla dashboard ben strutturata della NetApp Console di eseguire una scansione completa dei tuoi file system per individuare problemi di prestazioni, protezione dei dati e configurazioni. Questo ti assicura di ricevere informazioni e raccomandazioni accurate per ottimizzare i tuoi file system FSx for ONTAP.
+La connettività tramite Link o Console agent consente a Workload Factory di eseguire una scansione completa dei tuoi file system per individuare problemi di prestazioni, protezione dei dati e configurazione. Di conseguenza, ricevi informazioni e raccomandazioni precise per ottimizzare i tuoi file system FSx for ONTAP.
 
-I requisiti di configurazione dello storage variano. Puoi escludere dall'analisi le configurazioni specifiche che non si applicano al tuo ambiente di storage. Questo ti aiuta a evitare avvisi non necessari e risultati di ottimizzazione imprecisi.
+I requisiti di configurazione dello storage variano. Puoi ignorare l'analisi delle configurazioni specifiche che non si applicano al tuo ambiente di storage. Ignorare le configurazioni che non si applicano ti aiuta a evitare avvisi inutili e risultati di ottimizzazione imprecisi.
 
 
 
@@ -34,7 +34,7 @@ I requisiti di configurazione dello storage variano. Puoi escludere dall'analisi
 == Prima di iniziare
 
 * Devi link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["concedi le autorizzazioni per le operazioni e la remediation"^] nel tuo account AWS.
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["Installa un agente della Console"^] o link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Connettiti a un file system FSx for ONTAP tramite un collegamento"] per l'analisi più completa delle risorse del file system.
+* Devi link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["installare un agente della Console"^] o link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["connetti a un file system FSx for ONTAP usando un link"] per l'analisi più completa delle risorse del file system.
 
 
 
@@ -53,10 +53,7 @@ La risoluzione di problemi di configurazione può causare tempi di inattività d
 +
 Assicurati di esaminare attentamente la raccomandazione. La raccomandazione illustra le best practice e le potenziali insidie di configurazioni non ottimizzate.
 
-. Seleziona per *Correggere*.
-+
-Quando *Visualizza e correggi* è un'opzione, seleziona i volumi interessati da correggere.
-
+. Seleziona *Correggi* per un singolo volume oppure *Visualizza e correggi* per più volumi. Se selezioni *Visualizza e correggi*, seleziona i volumi interessati da correggere.
 . Esamina il riepilogo e le azioni da intraprendere nella finestra di dialogo per scoprire cosa succede se risolvi il problema. Alcune operazioni possono causare tempi di inattività dell'istanza o interruzioni del servizio.
 . Seleziona *Continua* per risolvere il problema di configurazione.
 
@@ -132,7 +129,7 @@ Riattiva un'analisi di configurazione ignorata in qualsiasi momento. Puoi selezi
 . Seleziona il menu image:workloads-menu-icon.png["L'icona del menu hamburger viene utilizzata per navigare tra carichi di lavoro come storage, eda, ai, databases, vmware e amministrazione."] e poi seleziona *Archiviazione*.
 . Dal menu Storage, seleziona *Well-architected*.
 . Seleziona *Configurazioni ignorate*.
-. Identifica il/i volume/i da riattivare dall'analisi della configurazione.
+. Identifica i volumi da riattivare dall'analisi della configurazione.
 +
 ** Per un volume: seleziona il menu azioni e poi seleziona *Riattiva volume*.
 ** Per più volumi: seleziona i volumi e poi seleziona *Riattiva* accanto a Bulk action.

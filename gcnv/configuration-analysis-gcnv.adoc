@@ -11,7 +11,7 @@ summary: NetApp Console analizza regolarmente le configurazioni dei sistemi stor
 
 
 [role="lead"]
-La dashboard ben progettata di NetApp Console analizza regolarmente le configurazioni dei sistemi storage per individuare eventuali problemi di configurazione. Quando vengono rilevati problemi, la dashboard ti mostra quali sono e spiega quali modifiche sono necessarie per garantire che i tuoi sistemi storage raggiungano prestazioni ottimali, efficienza dei costi e conformità alle best practice.
+Workload Factory analizza regolarmente le configurazioni dei sistemi storage per determinare se ci sono problemi di configurazione. Quando vengono rilevati problemi, la dashboard well-architected nella NetApp Console mostra quali sono i problemi e spiega cosa deve essere cambiato per assicurarti che i tuoi sistemi storage raggiungano prestazioni massime, efficienza dei costi e conformità alle best practice.
 
 Le principali funzionalità includono:
 
