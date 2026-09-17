@@ -88,7 +88,6 @@
   <block id="3583e4a3e4e2e122cff65b8ad9045348" category="list-text">Osservabilità proattiva</block>
   <block id="16fcd85dc9469370b62b4b46381f8e2a" category="list-text">Dagli insight all'azione</block>
   <block id="3f6f8b4e204fd3aa39cac35661de164d" category="section-title">Requisiti di analisi</block>
-  <block id="021c4674734853c034b954078fa080f3" category="inline-link-macro">distribuire un agente NetApp Console</block>
   <block id="f064aed6dd86a2b762ecf9bcf528b941" category="section-title">Best practice e raccomandazioni per i sistemi Cloud Volumes ONTAP</block>
   <block id="ffd9fc00ab43b8283346c6266e00d684" category="paragraph">L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del framework: , , ,  ed .</block>
   <block id="820b8f74ad843d1574106ec4cadfc07e" category="section-title">Affidabilità</block>
@@ -479,7 +478,6 @@
   <block id="461c5d5f90a73ed3aa1f4d477121a6cb" category="sidebar">Migliora le configurazioni di sistema</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
   <block id="011f9504247c9cd1298e36479592feba" category="summary">La dashboard ben progettata nella NetApp Console analizza quotidianamente le configurazioni del sistema Cloud Volumes ONTAP per individuare eventuali problemi di configurazione.</block>
-  <block id="ed3de084ebd57dfb5d10d8d07d5ff7c2" category="paragraph">Per un'analisi completa del sistema Cloud Volumes ONTAP, devi <block ref="19a2c83f86e8c849ea6629f601093445" category="inline-link-macro-rx"></block> configurare la connettività tra i tuoi sistemi e la NetApp Console.</block>
   <block id="df022fa81268ad87abe9b34e29e60ea4" category="paragraph">La dashboard well-architected valuta le configurazioni di storage per fornire una visione approfondita delle best practice di configurazione di ONTAP e per verificarne la conformità con l'Azure Well-Architected Framework. La valutazione suggerisce anche miglioramenti e correzioni.</block>
   <block id="f52eaa2b01823c61afb346f01ff37aec" category="paragraph">L'affidabilità garantisce che i carichi di lavoro svolgano le funzioni previste in modo corretto e coerente, anche in caso di interruzioni.</block>
   <block id="2b4d9723a34936112e4a4945c03eafb0" category="summary">La dashboard ben progettata analizza le configurazioni di Cloud Volumes ONTAP, fornendo informazioni e raccomandazioni per aiutarti a raggiungere l'eccellenza operativa.</block>
@@ -651,7 +649,6 @@
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 agosto 2026</block>
   <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Nomi di configurazione aggiornati nella dashboard well-architected</block>
   <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">La dashboard ben progettata di NetApp Console ora include nuovi nomi di configurazione dello storage.</block>
-  <block id="1ee2856eba991f06fff41aa25f053f64" category="paragraph">Devi anche stabilire la connettività outbound verso i seguenti endpoint:</block>
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">Consenti la connettività di rete outbound verso i seguenti endpoint:</block>
@@ -703,4 +700,5 @@
   <block id="e1379bec6448939dd8c8e64956276571" category="paragraph">Al termine dell'analisi giornaliera, le configurazioni vengono visualizzate come "ottimizzate" o "non ottimizzate" nella dashboard Well-Architected. Troverai i problemi di configurazione suddivisi per categoria del framework Well-Architected (affidabilità, sicurezza, eccellenza operativa, ottimizzazione dei costi ed efficienza delle prestazioni) e un elenco di problemi di configurazione e raccomandazioni. Workload Factory può risolvere alcuni problemi automaticamente, mentre altri richiedono un intervento manuale. In questo caso, la raccomandazione fornisce istruzioni dettagliate per aiutarti a implementare le modifiche.</block>
   <block id="1051d8d8b259af6af090187b5a6f6c2c" category="paragraph">Puoi ignorare l'analisi delle configurazioni che non si applicano ai tuoi ambienti. Ignorare le configurazioni evita avvisi inutili e risultati di ottimizzazione imprecisi.</block>
   <block id="6d2ee57779e107d410d741c1c85b6b44" category="paragraph">Workload Factory applica le best practice ad ambienti di storage, database e VMware di grandi dimensioni, combinando valutazioni continue con suggerimenti e interventi correttivi. La correzione automatizzata riduce gli errori umani, garantisce una gestione uniforme e preserva prestazioni e affidabilità nelle tue infrastrutture di sistema.</block>
+  <block id="54675850f07c5f375dabbd24ce963055" category="paragraph">Assicurati che l'agente Console associato a Cloud Volumes ONTAP abbia accesso ai seguenti endpoint:</block>
 </blocks>
