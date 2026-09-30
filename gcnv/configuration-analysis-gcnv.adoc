@@ -11,7 +11,7 @@ summary: NetApp Console analizza regolarmente le configurazioni dei sistemi stor
 
 
 [role="lead"]
-Workload Factory analizza regolarmente le configurazioni dei sistemi storage per determinare se ci sono problemi di configurazione. Quando vengono rilevati problemi, la dashboard well-architected nella NetApp Console mostra quali sono i problemi e spiega cosa deve essere cambiato per assicurarti che i tuoi sistemi storage raggiungano prestazioni massime, efficienza dei costi e conformità alle best practice.
+La dashboard ben progettata in NetApp Console controlla regolarmente le impostazioni del tuo sistema storage per individuare potenziali problemi. Se trova dei problemi, mostra quali sono e spiega come risolverli, in modo che i tuoi sistemi storage possano funzionare bene, tenere sotto controllo i costi e seguire le best practice sia in modalità predefinita sia in modalità ONTAP per gli ambienti Flex Unified Google Cloud NetApp Volumes.
 
 Le principali funzionalità includono:
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Sc
 [[best-practices-and-recommendations-for-storage-workloads]]
 == Best practice e raccomandazioni per i carichi di lavoro di storage
 
-Workload Factory valuta le configurazioni di storage rispetto alle best practice di storage e ONTAP e al Google Cloud Well-Architected Framework. La valutazione consiglia anche dei miglioramenti.
+Workload Factory valuta le configurazioni di storage in base alle best practice di storage e ONTAP e al framework Well-Architected di Google Cloud. La valutazione consiglia inoltre miglioramenti per le risorse Google Cloud NetApp Volumes in modalità predefinita e per le risorse Flex Unified individuate tramite l'endpoint proxy dell'API ONTAP.
 
-L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del framework: _affidabilità_ ed _eccellenza operativa_.
+L'analisi ben strutturata classifica le configurazioni nei seguenti pilastri del framework: _affidabilità_ ed _eccellenza operativa_. I risultati della valutazione possono includere un valore di modalità di _Default-mode_ o _ONTAP-mode_.
 
 
 

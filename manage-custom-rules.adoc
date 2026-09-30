@@ -14,7 +14,7 @@ summary: Visualizza, abilita, disabilita ed elimina le regole architetturali per
 
 
 [role="lead"]
-Il catalogo delle regole è il luogo ideale per gestire tutte le tue regole personalizzate. Puoi visualizzare i dettagli di ciascuna regola, verificarne i risultati e attivarla o disattivarla.
+Il catalogo delle regole è l'unico posto in cui puoi gestire tutte le tue regole personalizzate. Puoi rivedere i dettagli delle regole, controllarne i risultati e decidere se eseguirle in base a una pianificazione.
 
 
 
@@ -97,8 +97,13 @@ I test vengono verificati e compaiono nella cronologia di valutazione della rego
 
 
 
-[[understand-execution-status]]
-== Comprendi lo stato di esecuzione
+[[understand-rule-and-execution-status]]
+== Comprendi lo stato delle regole e dell'esecuzione
+
+Il catalogo delle regole mostra sia lo stato delle regole che lo stato di esecuzione.
+
+Stato della regola:: *Bozza* significa che la regola è salvata ma non è ancora pianificata. *In corso* significa che la regola è in fase di creazione o convalida. *Pianificata* significa che la regola è attiva e viene eseguita secondo la sua pianificazione. *In pausa* significa che la regola rimane nel catalogo ma non viene eseguita. *Creazione non riuscita* significa che la regola non è stata completata e deve essere aggiornata nella chat prima di poter essere salvata.
+
 
 Lo stato di esecuzione mostra se una regola è stata eseguita correttamente.
 

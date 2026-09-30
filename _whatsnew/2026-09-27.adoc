@@ -1,0 +1,37 @@
+= Scopri le risorse Flex Unified in Workload Factory
+:allow-uri-read: 
+
+
+
+
+[[discover-flex-unified-resources-in-workload-factory]]
+=== Scopri le risorse Flex Unified in Workload Factory
+
+Workload Factory ora può individuare pool di storage e volumi Google Cloud NetApp Volumes Flex Unified in modalità predefinita e in modalità ONTAP tramite il proxy endpoint dell'API ONTAP. Queste risorse vengono visualizzate nell'inventario e sono incluse nelle valutazioni e nelle raccomandazioni well-architected.
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Scopri l'analisi della configurazione per Google Cloud NetApp Volumes"]
+
+
+
+[[enter-flex-unified-systems-from-netapp-console-canvas]]
+=== Accedi ai sistemi Flex Unified da NetApp Console Canvas
+
+Ora puoi selezionare *Enter System* per i sistemi Google Cloud NetApp Volumes Flex Unified rilevati da NetApp Console Canvas. Questo apre la pagina Risorse per il sistema selezionato, così puoi visualizzare i pool di storage e i volumi associati utilizzando lo stesso flusso di lavoro disponibile per i sistemi in modalità predefinita.
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Scopri l'analisi della configurazione per Google Cloud NetApp Volumes"]
+
+
+
+[[well-architected-assessments-for-flex-unified-resources]]
+=== Valutazioni ben strutturate per le risorse Flex Unified
+
+La dashboard well-architected ora valuta i pool di storage e i volumi Flex Unified di Google Cloud NetApp Volumes in base al margine di capacità SSD, al margine di capacità del volume e alla copertura dei criteri di snapshot. I risultati vengono visualizzati nell'esperienza well-architected di Google Cloud NetApp Volumes e identificano le risorse in modalità Default o ONTAP.
+
+link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Scopri l'analisi della configurazione per Google Cloud NetApp Volumes"]
+
+
+
+[[well-architected-issues-displayed-in-netapp-console-systems-page]]
+=== Problemi ben strutturati visualizzati nella pagina Sistemi di NetApp Console
+
+Le notifiche per i problemi well-architected sono disponibili per Google Cloud NetApp Volumes dalla pagina Sistemi di gestione dello storage in NetApp Console. Questa funzionalità ti aiuta a identificare rapidamente i problemi di configurazione nei tuoi sistemi Google Cloud NetApp Volumes e ad accedere alla dashboard well-architected dei workload dalla notifica.

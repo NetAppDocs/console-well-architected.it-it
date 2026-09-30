@@ -78,6 +78,7 @@ Nome regola:: Un nome definito dall'utente per la regola.
 Descrizione:: La tua spiegazione del perché questa regola è importante per la tua organizzazione.
 Tipo di risorsa:: La risorsa FSx da valutare (file system, volume o cache). Attualmente, un solo tipo di risorsa per regola.
 Pianificatore:: Con quale frequenza viene valutata la regola (minimo 1 ora, predefinito 24 ore).
+Gravità:: Il livello di importanza della regola, ad esempio avviso o critico.
 logica condizionale:: I criteri specifici da verificare.
 Ambito di valutazione:: Quali risorse vengono valutate (tutte le risorse applicabili nell'ambito).
 logica di correzione:: Guida manuale per affrontare le risorse non conformi.
@@ -90,11 +91,13 @@ logica di correzione:: Guida manuale per affrontare le risorse non conformi.
 
 Le regole personalizzate passano attraverso i seguenti stati:
 
-Bozza:: La regola è in fase di creazione. Non viene eseguita alcuna valutazione.
-Prova a secco:: Valutazione una tantum per visualizzare in anteprima quali risorse verrebbero interessate. Usata per la convalida prima della pianificazione.
-Programmato (Abilitato):: La regola è attiva e viene eseguita secondo la pianificazione definita.
-Disattivato:: La regola è sospesa ma non eliminata. Può essere riattivata.
-Eliminato:: La regola è stata rimossa definitivamente.
+In corso:: Crea o verifica le regole.
+Impossibile creare:: Impossibile creare la regola.
+Bozza:: Salvato ma non ancora pianificato.
+Bozza convalidata:: La convalida è stata superata e puoi salvare o pianificare l'operazione.
+Programmato (Abilitato):: Attivo e viene eseguito secondo la pianificazione definita.
+Disattivato:: In pausa ma non eliminato. Puoi riattivarlo.
+Eliminato:: Rimosso definitivamente.
 
 
 

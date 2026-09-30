@@ -85,7 +85,7 @@ L'IA potrebbe chiederti di scegliere tra diverse opzioni per comprendere meglio 
 [[test-the-rule]]
 == Metti alla prova la regola
 
-Prima di programmare la regola, esegui un test una tantum per vedere quali risorse verranno interessate.
+Prima di salvare o programmare la regola, esegui un test per vedere quali risorse interesserà.
 
 .Passaggi
 . Seleziona *Validate rule*.
@@ -114,13 +114,13 @@ Il sistema valuta tutte le risorse nell'ambito rispetto alla tua logica delle re
 [[save-or-schedule-the-rule]]
 == Salva o pianifica la regola
 
-Dopo aver testato la tua regola, puoi salvarla come bozza o impostarla per l'esecuzione periodica.
+Dopo aver convalidato la regola, puoi salvarla come bozza o impostarla per l'esecuzione periodica.
 
 .Passaggi
 . Esegui una delle seguenti operazioni:
 +
 ** Per programmare una valutazione periodica, imposta la frequenza di valutazione (minimo 1 ora, predefinita 24 ore) e seleziona *Pianifica*. La regola è abilitata e viene eseguita secondo la pianificazione definita.
-** Per salvare senza pianificare, seleziona *Salva come bozza*. La regola viene salvata ma non valutata finché non la pianifichi.
+** Per salvare dopo la convalida senza pianificare, seleziona *Salva come bozza*. La regola viene salvata ma non viene valutata finché non la pianifichi.
 ** Per eliminare la regola, seleziona *Elimina* per annullare la creazione della regola e ricominciare da capo.
 
 
