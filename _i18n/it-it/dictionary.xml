@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">Il catalogo delle regole mostra sia lo stato delle regole che lo stato di esecuzione.</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">Stato della regola</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*Bozza* significa che la regola è salvata ma non è ancora pianificata. *In corso* significa che la regola è in fase di creazione o convalida. *Pianificata* significa che la regola è attiva e viene eseguita secondo la sua pianificazione. *In pausa* significa che la regola rimane nel catalogo ma non viene eseguita. *Creazione non riuscita* significa che la regola non è stata completata e deve essere aggiornata nella chat prima di poter essere salvata.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27 settembre 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 settembre 2026</block>
 </blocks>
