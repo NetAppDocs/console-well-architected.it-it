@@ -17,10 +17,10 @@ summary: Crea una regola architetturale personalizzata utilizzando il linguaggio
 Crea regole personalizzate descrivendole in linguaggio naturale. Il costruttore di regole AI trasforma la tua richiesta in una regola validata che controlla le risorse FSx for ONTAP.
 
 .Informazioni su questa attività
-Il processo di creazione delle regole ti guida attraverso i vari passaggi: definizione della regola, revisione di come l'IA l'ha interpretata e verifica dei risultati prima di programmare le valutazioni periodiche. Rimani in controllo a ogni passaggio. Il sistema suggerisce una regola in base alla tua richiesta, ma nulla va avanti finché non la confermi.
+Il processo di configurazione delle regole ti guida attraverso ogni fase: creazione della regola, verifica di come l'IA l'ha interpretata e controllo dei risultati prima di programmare le revisioni periodiche. Mantieni il controllo durante tutto il processo. Il sistema suggerisce una regola in base alla tua richiesta, ma non succede nulla finché non la approvi.
 
 
-NOTE: Se l'amministratore del tuo account ha disattivato le funzionalità di intelligenza artificiale, visualizzerai un messaggio e non potrai creare regole personalizzate. Contatta il tuo amministratore o link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come amministrare l'AI"^].
+NOTE: Se l'amministratore del tuo account ha disattivato le funzionalità di intelligenza artificiale, visualizzerai un messaggio e non potrai creare o modificare regole personalizzate. Contatta il tuo amministratore o link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Scopri come amministrare l'AI"^].
 
 .Prima di iniziare
 * Hai configurato le credenziali AWS con accesso di sola lettura.
@@ -36,8 +36,8 @@ NOTE: Se l'amministratore del tuo account ha disattivato le funzionalità di int
 
 .Passaggi
 . Accedi utilizzando uno dei link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["esperienze della console"^].
-. Seleziona il menu image:workloads-menu-icon.png["L'icona del menu hamburger"] e poi seleziona *Well-architected*.
-. Dal menu Well-architected, seleziona *costruttore di regole*.
+. Seleziona il menu image:workloads-menu-icon.png["L'icona del menu hamburger"] e poi seleziona Well-architected.
+. Dal menu Well-architected, seleziona il costruttore di regole.
 +
 Quando apri il costruttore di regole, vengono visualizzati dei prompt di esempio per aiutarti a scrivere la tua regola personalizzata. Puoi selezionare *Copia prompt* per copiare un prompt di esempio nella casella di testo della finestra di dialogo AI.
 
@@ -62,16 +62,20 @@ L'IA analizza il tuo prompt e genera una definizione di regola.
 
 Il costruttore di regole visualizza:
 
-* *Interpretazione sintattica*: Come l'AI ha compreso il tuo prompt in linguaggio semplice.
-* *Definizione della regola*: La regola strutturata che include il tipo di risorsa, la logica delle condizioni e i criteri di valutazione.
-* *Motivazione*: Perché l'AI ha interpretato il tuo prompt in questo modo.
-* *Indicatore di affidabilità*: quanto il sistema è sicuro dell'interpretazione.
+Interpretazione analizzata:: Come l'IA ha interpretato il tuo prompt in linguaggio semplice.
+Definizione della regola:: La regola strutturata che include il tipo di risorsa, la logica delle condizioni e i criteri di valutazione.
+Ragionamento:: Perché l'IA ha interpretato il tuo prompt in questo modo.
+Indicatore di attendibilità:: Quanto il sistema sia sicuro dell'interpretazione.
 
 
 .Passaggi
 . Rivedi l'interpretazione per assicurarti che corrisponda a ciò che intendevi.
+. Verifica che la definizione della regola sia corretta. Se l'interpretazione non è chiara o è errata, il sistema potrebbe porre domande come:
 +
-Verifica che la definizione della regola sia corretta. Se l'interpretazione non è chiara o è errata, il sistema potrebbe fare domande come: * Quale risorsa deve essere controllata? * Quale valore o limite definisce la conformità? * Ogni quanto deve essere eseguita la regola?
+** Quale risorsa devi controllare?
+** Quale valore o limite definisce la conformità?
+** Con quale frequenza vuoi eseguire la regola?
+
 
 . Rispondi alle domande di chiarimento dell'IA.
 +
@@ -94,17 +98,10 @@ Il sistema valuta tutte le risorse nell'ambito rispetto alla tua logica delle re
 
 . Esamina i risultati della convalida:
 +
-** *Risorse valutate*: Numero totale di risorse controllate
-** *Conforme*: Risorse che soddisfano i criteri della regola
-** *Non conforme*: Risorse che non soddisfano i criteri
-** *Valutazioni fallite*: Risorse che non è stato possibile valutare (con dettagli sull'errore)
-
-
-. Se alcune risorse non hanno superato la valutazione, controlla i motivi dell'errore:
-+
-** *Errori nelle credenziali AWS*: le autorizzazioni di sola lettura potrebbero non essere sufficienti per determinate risorse
-** *Errori di connettività*: il collegamento o l'agente potrebbero non essere configurati per specifici file system
-** *Errori di autorizzazione ONTAP*: l'utente visualizzatore potrebbe non avere accesso a determinate risorse
+** Risorse valutate: Numero totale di risorse controllate
+** Conforme: risorse che soddisfano i criteri della regola
+** Non conforme: Risorse che non soddisfano i criteri
+** Valutazioni non riuscite: Risorse che non è stato possibile valutare (con dettagli sull'errore)
 
 
 
@@ -119,27 +116,15 @@ Dopo aver convalidato la regola, puoi salvarla come bozza o impostarla per l'ese
 .Passaggi
 . Esegui una delle seguenti operazioni:
 +
-** Per programmare una valutazione periodica, imposta la frequenza di valutazione (minimo 1 ora, predefinita 24 ore) e seleziona *Pianifica*. La regola è abilitata e viene eseguita secondo la pianificazione definita.
+** Per programmare una valutazione periodica, imposta la frequenza di valutazione e seleziona *Pianifica*. La regola è abilitata e viene eseguita in base alla pianificazione definita.
 ** Per salvare dopo la convalida senza pianificare, seleziona *Salva come bozza*. La regola viene salvata ma non viene valutata finché non la pianifichi.
-** Per eliminare la regola, seleziona *Elimina* per annullare la creazione della regola e ricominciare da capo.
+** Per eliminare la regola, seleziona *Elimina*.
 
 
 
 
 .Risultato
-La tua regola personalizzata è stata creata ed è presente nel catalogo delle regole. Se imposti una pianificazione, controllerà le risorse FSx for ONTAP alla frequenza specificata.
-
-
-
-[[troubleshooting]]
-== Risoluzione dei problemi
-
-Nessun file system disponibile:: Configura le tue credenziali AWS e assicurati che il tuo ambiente disponga di almeno un file system FSx for ONTAP. Il costruttore di regole necessita di un file system per applicare le regole.
-Interpretazione a bassa fiducia:: Sono necessarie ulteriori informazioni. Rispondi alle domande o riscrivi la tua richiesta fornendo dettagli chiari sul tipo di risorsa, i limiti e le condizioni.
-Errori di convalida parziali:: Verifica quali risorse hanno generato errori e perché. Le cause più comuni sono la mancanza di collegamenti o impostazioni dell'agente, oppure autorizzazioni insufficienti. Risolvi il problema, poi verifica di nuovo.
-Richiesta ambigua:: Specifica meglio cosa vuoi verificare. Includi il tipo di risorsa, la condizione e la soglia. Guarda gli esempi di prompt per avere aiuto.
-La regola si applica a più tipi di risorse:: Crea una regola separata per ogni tipo di risorsa. È supportato un solo tipo di risorsa per regola.
-
+La tua regola personalizzata è stata creata ed è elencata nel catalogo delle regole. Se imposti una pianificazione, controllerà le tue risorse FSx for ONTAP alla frequenza specificata. Se in seguito modifichi la regola, il sistema ti guiderà attraverso gli stessi passaggi - chat, revisione, approvazione e convalida - prima di salvare la versione aggiornata.
 
 
 

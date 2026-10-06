@@ -1,0 +1,12 @@
+= Modifica e gestisci le regole personalizzate
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== Modifica e gestisci le regole personalizzate
+
+Ora puoi modificare le regole personalizzate nel catalogo delle regole. Puoi aggiornare i nomi e le impostazioni delle regole, rivedere le modifiche in chat, convalidare le modifiche ed eliminare le regole che non ti servono più.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Scopri come gestire le regole personalizzate"]
